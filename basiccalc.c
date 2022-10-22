@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 int main() {
-    int num1, num2;
+    double num1, num2;
     printf("Enter first number: ");
-    scanf("%d", &num1);
+    scanf("%lf", &num1);
     printf("Enter second number: ");
-    scanf("%d", &num2);
+    scanf("%lf", &num2);
 
-    printf("Answer: %d\n", num1 + num2);
+    printf("Answer: %lf\n", num1 + num2);
 
     return 0;
 }
